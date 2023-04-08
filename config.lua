@@ -1,12 +1,12 @@
 Config = {}
 
-Config.Job = 'colorless'-- Job name
-Config.car = 'newsvan' -- Car spawn code
-Config.carmenu = 'newsvan' -- Car spawn code
+Config.Job = 'change me'-- Job name
+Config.car = 'change me' -- Car spawn code
+Config.carmenu = 'change me' -- Car spawn code
 Config.Pedlocation = { -- Where the ped will spawn
 	{
 	 	model = 'csb_talcc', -- Ped Model
-	 	coords = vector4(-1095.5, -259.57, 37.69, 38.13),
+	 	coords = vector4(-1095.5, -259.57, 37.69, 38.13), -- Currently next to the garage at the life invader building
 	 	gender = 'male', -- Change to if they female or male
 	 	scenario = 'amb@world_human_cop_idles@male@idle_b', -- The scenario they will play
 	},
@@ -31,8 +31,8 @@ Config.GenderNumbers = { -- DONT TOUCH
 }
 
 
-Config.cartospawn = 'newsvan' -- Make this the spawn code for the car
-Config.cartospawnmenu = 'newsvan' -- Make this the spawn code for the car
+Config.cartospawn = 'change me' -- Make this the spawn code for the car
+Config.cartospawnmenu = 'change me' -- Make this the spawn code for the car
 
 
 Config.FuelDecor = "_FUEL_LEVEL" -- DONT TOUCH LMFAO
