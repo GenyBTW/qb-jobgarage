@@ -1,7 +1,7 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 local Peds = {}
 
-RegisterNetEvent('qb-weasel:garage', function(bs)
+RegisterNetEvent('qb-jobgarage:garage', function(bs)
     local vehicle = bs.vehicle
     QBCore.Functions.GetPlayerData(function(PlayerData)
         if PlayerData.job.name == Config.Job then
@@ -29,27 +29,27 @@ RegisterNetEvent('qb-weasel:storecar', function()
     QBCore.Functions.DeleteVehicle(car)
 end)
 
-RegisterNetEvent('qb-weasel:menu:garage', function()
+RegisterNetEvent('qb-jobgarage:menu:garage', function()
     exports['qb-menu']:openMenu({
         {
-            header = 'News Van Spawner',
+            header = 'News Van Spawner', -- Change this
             isMenuHeader = true,
         },
         {
-            header = 'Spawn News Van',
-            txt = 'Click me please',
+            header = 'Spawn News Van', -- Change this
+            txt = 'Click me please', -- Change this
             params = {
-                event = 'qb-weasel:garage',
+                event = 'qb-jobgarage:garage', 
                 args = {
                     vehicle = Config.car,
                 }
             }
         },
         {
-            header = '• Store Vehicle',
-            txt = 'Store Vehicle Inside Garage',
+            header = '• Store Vehicle', -- Change this
+            txt = 'Store Vehicle Inside Garage', -- Change this
             params = {
-                event = 'qb-weasel:storecar',
+                event = 'qb-jobgarage:storecar', 
                 args = {
                     
                 }
