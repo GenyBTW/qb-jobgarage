@@ -21,7 +21,7 @@ Copy and paste this code below to Config.TargetModels in your qb-target
             	event = 'qb-weasel:menu:garage', 
                 icon = 'fas fa-car',
 				label = 'News Garage',
-                job = 'colorless',
+                job = 'colorless', -- Change this
                 canInteract  = function(entity)
                     local dist = #(GetEntityCoords(PlayerPedId()) - vector3(-1095.5, -259.57, 37.69)) -- Make this the ped spawn 
                     if dist > 6 then
