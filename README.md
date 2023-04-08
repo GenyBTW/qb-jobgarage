@@ -12,7 +12,7 @@ Copy and paste this code below to Config.TargetModels in your qb-target
 
     ['job'] = { -- job
 		models = {
-		    `csb_talcc`, -- player model
+		    `csb_talcc`, -- Ped model
 		},
 		options = {
             {
