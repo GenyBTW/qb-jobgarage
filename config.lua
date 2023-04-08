@@ -13,7 +13,7 @@ Config.Pedlocation = { -- Where the ped will spawn
 }
 
 Config.carspawn = { -- Where the car will spawn when you take it out
-	["newsvan"] = { -- Put car spawn code
+	["change me"] = { -- Put car spawn code
 		coords = vector4(-1098.21, -256.4, 37.68, 139.8)
 	}
 }
