@@ -20,7 +20,7 @@ RegisterNetEvent('qb-jobgarage:garage', function(bs)
     end)    
 end)
 
-RegisterNetEvent('qb-weasel:storecar', function()
+RegisterNetEvent('qb-jobgarage:storecar', function()
     local Player = QBCore.Functions.GetPlayerData()
     QBCore.Functions.Notify('Vehicle Stored!', 'primary')
     local car = GetVehiclePedIsIn(PlayerPedId(),true)
