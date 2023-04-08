@@ -38,4 +38,3 @@ Copy and paste this code below to Config.TargetModels in your qb-target
  
  Showcase:
  
- https://imgur.com/lVZufcJ
