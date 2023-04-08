@@ -23,7 +23,7 @@ Copy and paste this code below to Config.TargetModels in your qb-target
 				label = 'News Garage',
                 job = 'colorless',
                 canInteract  = function(entity)
-                    local dist = #(GetEntityCoords(PlayerPedId()) - vector3(-1095.5, -259.57, 37.69))
+                    local dist = #(GetEntityCoords(PlayerPedId()) - vector3(-1095.5, -259.57, 37.69)) -- Make this the ped spawn 
                     if dist > 6 then
                         return false
                     elseif dist < 7 then
