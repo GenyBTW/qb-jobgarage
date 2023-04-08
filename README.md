@@ -10,7 +10,6 @@ Ensure the resource in your server.cfg
 
 Copy and paste this code below to Config.TargetModels in your qb-target
 
---
     ['job'] = { -- job
 		models = {
 		    `csb_talcc`, -- player model
@@ -34,6 +33,5 @@ Copy and paste this code below to Config.TargetModels in your qb-target
             },
 		},
 	},
- --
  
  Make sure you change the stuff in the config and in the client lua at line 15 the change me to the spawn code
