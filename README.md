@@ -35,3 +35,7 @@ Copy and paste this code below to Config.TargetModels in your qb-target
 	},
  
  Make sure you change the stuff in the config and in the client lua at line 15 the change me to the spawn code
+ 
+ Showcase:
+ 
+ https://imgur.com/lVZufcJ
