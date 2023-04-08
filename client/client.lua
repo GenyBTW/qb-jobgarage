@@ -12,7 +12,7 @@ RegisterNetEvent('qb-weasel:garage', function(bs)
                     SetEntityHeading(vehicle, 34.65)
                     TriggerEvent('vehiclekeys:client:SetOwner', QBCore.Functions.GetPlate(veh))
                     SetVehicleEngineOn(veh, true, true)
-				end, Config.carspawn["newsvan"].coords, true)
+				end, Config.carspawn["change me"].coords, true)
             end
         else 
             QBCore.Functions.Notify('You are not an employee', 'error')
