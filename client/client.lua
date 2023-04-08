@@ -7,7 +7,7 @@ RegisterNetEvent('qb-jobgarage:garage', function(bs)
         if PlayerData.job.name == Config.Job then
             if vehicle == Config.car then
                 QBCore.Functions.SpawnVehicle(vehicle, function(veh)
-                    SetVehicleNumberPlateText(veh, 'WEASEL')
+                    SetVehicleNumberPlateText(veh, 'change me') -- Put the you want on license plate here
                     SetFuel(veh, 100.0)
                     SetEntityHeading(vehicle, 34.65)
                     TriggerEvent('vehiclekeys:client:SetOwner', QBCore.Functions.GetPlate(veh))
