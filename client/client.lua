@@ -46,7 +46,7 @@ RegisterNetEvent('qb-jobgarage:menu:garage', function()
             }
         },
         {
-            header = '• Store Vehicle', -- Change this
+            header = 'Store Vehicle', -- Change this
             txt = 'Store Vehicle Inside Garage', -- Change this
             params = {
                 event = 'qb-jobgarage:storecar', 
