@@ -36,7 +36,7 @@ RegisterNetEvent('qb-jobgarage:menu:garage', function()
             isMenuHeader = true,
         },
         {
-            header = 'Spawn News Van', -- Change this
+            header = 'Spawn Van', -- Change this
             txt = 'Click me please', -- Change this
             params = {
                 event = 'qb-jobgarage:garage', 
